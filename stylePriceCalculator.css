@@ -117,10 +117,10 @@ button:hover {
   font-size: 16px;
   border-radius: 50px;
   border: 1px solid rgb(240, 240, 120);
+  padding: 10px 0;
 }
 
 .Calculate:hover {
-  font-size: 20px;
   border: 2px solid rgb(240, 240, 120);
 }
 
@@ -165,4 +165,8 @@ h1 {
 
 .note-box {
   color: rgb(240, 240, 120);
+}
+
+.price {
+  margin-top: 40px;
 }
