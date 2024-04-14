@@ -15,5 +15,6 @@
 
   .title {
     font-size: 0.6rem;
+    text-wrap: nowrap;
   }
 }
