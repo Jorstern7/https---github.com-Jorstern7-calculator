@@ -137,9 +137,7 @@ h1 {
 .clear-box {
   display: flex;
   align-items: center;
-  position: absolute;
-  top: 80%;
-  bottom: 0;
+  justify-content: center;
   padding: 20px;
   border: 1px solid rgb(240, 240, 120);
   border-radius: 50px;
@@ -151,7 +149,6 @@ h1 {
 .form-box {
   display: flex;
   flex-direction: column;
-  position: relative;
   margin-top: 16px;
   padding-bottom: 150px;
   align-items: center;
