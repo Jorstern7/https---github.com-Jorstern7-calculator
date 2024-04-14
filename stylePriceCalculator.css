@@ -169,6 +169,10 @@ h1 {
   text-align: center;
 }
 
+.section {
+  margin-bottom: 20px;
+}
+
 /* .your-priceResult span {
   color: #444;
 } */
