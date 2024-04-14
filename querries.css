@@ -1,0 +1,23 @@
+/* *************************** */
+/* BELOW 600PX (tablet) */
+/* *************************** */
+
+@media (max-width: 37em) {
+  .note-box {
+    margin-top: 9.6rem;
+  }
+
+  .clear-box {
+    top: 80%;
+    left: 30%;
+  }
+
+  .title {
+    font-size: 0.8rem;
+  }
+
+  body {
+    height: 100vh;
+    width: 100vw;
+  }
+}

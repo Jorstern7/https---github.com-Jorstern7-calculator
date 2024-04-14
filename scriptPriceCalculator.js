@@ -13,6 +13,10 @@ document.querySelector(".Calculate").addEventListener("click", function () {
   const calcBudget3 = Number(document.querySelector(".min").value);
   const calcBudget4 = Number(document.querySelector(".sec").value);
 
+  // const h2 = document.querySelector(".number");
+
+  // h2.textContent.style = "#555";
+
   const calcHour = calcBudget2 * 60 * 60;
   const calcMin = calcBudget3 * 60;
   //console.log(calcBudget3 * 60);
