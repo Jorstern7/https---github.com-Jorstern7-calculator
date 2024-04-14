@@ -42,10 +42,11 @@
 
   .clear-box {
     position: absolute;
-    top: 75%;
+    top: 80%;
     left: 20%;
     right: 20%;
     bottom: 0;
+    transform: translateY(30%);
   }
 
   .title {
@@ -70,10 +71,11 @@
 
   .clear-box {
     position: absolute;
-    top: 75%;
+    top: 80%;
     left: 20%;
     right: 20%;
     bottom: 0;
+    transform: translateY(30%);
   }
 
   .title {
