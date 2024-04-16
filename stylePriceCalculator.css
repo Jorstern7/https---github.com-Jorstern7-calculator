@@ -61,14 +61,20 @@ input {
   margin-bottom: 40px;
 }
 
-.note-box {
-  display: block;
-  line-height: 0.1rem;
-}
-
 .container-grid {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  position: relative;
+}
+
+.note-box {
+  display: block;
+  position: absolute;
+  top: 130%;
+  bottom: 0;
+  transform: translateY(130%);
+  line-height: 0%;
+  text-wrap: wrap;
 }
