@@ -63,6 +63,7 @@ input {
 
 .note-box {
   display: block;
+  line-height: 0.1rem;
 }
 
 .container-grid {
