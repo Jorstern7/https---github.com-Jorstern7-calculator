@@ -9,7 +9,6 @@ body {
   align-items: center;
   justify-content: center;
   background-color: rgba(240, 240, 221, 0.863);
-  margin: 20px auto;
   overflow-x: hidden;
 }
 
@@ -72,9 +71,15 @@ input {
 .note-box {
   display: block;
   position: absolute;
-  top: 130%;
+  top: 120%;
   bottom: 0;
-  transform: translateY(130%);
+  transform: translateY(120%);
   line-height: 0%;
-  text-wrap: wrap;
+  padding: 5px 0;
+  margin-bottom: 20px;
+}
+
+.fake-container {
+  content: "";
+  margin-top: 20px;
 }
