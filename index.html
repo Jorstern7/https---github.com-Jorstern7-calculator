@@ -6,56 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link href="stylePriceCalculator.css" rel="stylesheet" />
-    <link href="querries.css" rel="stylesheet"/>
   </head>
-  <body class="body">
-    <header class="title">
-
-      <div class="container-flex"><h1>New Price Calculator</h1></div>
-    </header>
-  
+  <body>
     
-
-    
-    <div class="form-box">
+    <div class="container-grid">
       
-      <div id="your-price">
-        <div class="container">
+      <div><h1>New Price Calculator</h1></div>
+      
+      <div class="form-box">
+        
+        
           <h2>Price Calculator</h2>
+          <div class="container-fields">
+            
+            <input id="rate" placeholder="Your rate per min" type="number" required />
+            <input class="hour" placeholder="Number of hour(s)" type="number" />
+            <input class="min" placeholder="Number of minutes" type="number" />
+            <input class="sec" placeholder="Number of seconds" type="number" />
+            <button class="calculate">Calculate</button>
+          </div>
           
-          <input class="rate" placeholder="Your rate per min" type="number" />
-          <input class="hour" placeholder="Number of hour(s)" type="number" />
-          <input class="min" placeholder="Number of minutes" type="number" />
-          <input class="sec" placeholder="Number of seconds" type="number" />
-          <button class="Calculate">Calculate</button>
-        </div>
-        
-        <h2 class="price">
-          <p class="your-priceResult">Your Price: 0</p>
-        </h2>
-      </br>
-        
-        
-        
-      </br>
-      <h2><p class="Signature">Proudly developed by Jorstern W. Alcide</p></h2>
+          <h2>
+            <p class="your-priceResult">Your Price: 0</p>
+          </h2>
+          
+          
+        </br>
+        <h2><p class="signature">Proudly developed by Jorstern W. Alcide</p></h2>
+      </div>
     </div>
-  </div>
-
-  <section class="section">
-
-    <button class="clear-box" class="Clear">Clear Data</button>
+    
+    <div><button class="clear-btn">Clear Data</button></div>
     
     <div class="note-box"><p>Note: This calculator is for</p>
       <br> 
-      <p>transcriptions or other tasks</p></br><p>that can be charged based on</p></br><p>the rate per minute and/or second.</p></br><p>This calculator is not for hourly based salaries.</p></br><p>Thanks for using the APP!</p></br><p></p></br><p></p>
-
-    </br>
+      <p>transcriptions or other tasks</p></br><p>that can be charged based on</p></br><p>the rate per minute and/or second.</p></br><p>This calculator is not for hourly based salaries.</p></br><p>Thanks for using the APP!</p>
     </div>
   </div>
+</div>
   
-</section>
-
     <script src="scriptPriceCalculator.js"></script>
   </body>
 </html>
