@@ -10,8 +10,6 @@ body {
   justify-content: center;
   background-color: rgba(240, 240, 221, 0.863);
   overflow-x: hidden;
-  padding: 20px 0;
-  gap: 20%;
 }
 
 h1 {
@@ -35,11 +33,27 @@ input {
   justify-content: center;
   width: 200px;
   height: 40px;
+  background-color: rgb(228, 228, 150);
+  border: none;
+  border: 1px solid yellow;
+  border-radius: 20px;
 }
 
+input:focus {
+  background-color: rgb(228, 228, 150);
+  color: yellowgreen;
+}
+
+input:hover {
+  background-color: rgb(241, 241, 119);
+  color: yellowgreen;
+}
 .calculate {
   width: 100px;
   height: 40px;
+  border: none;
+  border: 1px solid rgb(194, 194, 160);
+  border-radius: 20px;
 }
 
 .form-box {
@@ -49,6 +63,7 @@ input {
   align-items: center;
   justify-content: center;
   padding: 10px 15px;
+  margin: 0;
   width: 250px;
 }
 
@@ -59,7 +74,10 @@ input {
   width: 100px;
   height: 40px;
   margin-top: 10px;
-  margin-bottom: 40px;
+  border: none;
+  border: 1px solid rgb(194, 194, 160);
+  border-radius: 20px;
+  /* margin-bottom: 40px; */
 }
 
 .container-grid {
@@ -68,6 +86,7 @@ input {
   align-items: center;
   justify-content: center;
   position: relative;
+  margin-bottom: 20px;
 }
 
 .note-box {
@@ -79,10 +98,9 @@ input {
   line-height: 0%;
   padding: 5px 0;
   margin-bottom: 20px;
-  gap: 20%;
 }
 
-.fake-container {
+/* .fake-container {
   content: "";
   margin-top: 20px;
-}
+} */

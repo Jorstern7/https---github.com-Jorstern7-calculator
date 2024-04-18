@@ -3,20 +3,30 @@
 /* *************************** */
 
 @media (max-width: 62em) {
+  body {
+    width: 75vw;
+  }
+  .container-grid {
+    margin-bottom: 0;
+  }
+
   .note-box {
-    margin-top: 4.2rem;
-    margin-bottom: 4.8rem;
-  }
-
-  .form-box {
-  }
-
-  .clear-box {
+    position: absolute;
+    top: -100%;
+    bottom: 0;
+    transform: translateY(-100%);
+    margin-top: 0;
   }
 
   .title {
     font-size: 0.6rem;
     text-wrap: nowrap;
+  }
+}
+
+@media (max-width: 62em) {
+  html {
+    margin-bottom: 2rem;
   }
 }
 
@@ -26,8 +36,11 @@
 
 @media (max-width: 50em) {
   .note-box {
-    margin-top: 2.4rem;
-    margin-bottom: 4.8rem;
+    position: absolute;
+    top: 20%;
+    bottom: 0;
+    transform: translateY(20%);
+    margin-top: 0;
   }
 
   .form-box {
@@ -48,7 +61,6 @@
 
 @media (max-width: 37em) {
   .note-box {
-    margin-top: 1rem;
     margin-bottom: 4.8rem;
   }
 
