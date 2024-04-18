@@ -14,10 +14,15 @@ body {
 
 h1 {
   text-align: center;
+  color: rgb(179, 176, 173);
 }
 
 h2 {
   text-align: center;
+}
+
+.signature {
+  color: rgb(241, 241, 119);
 }
 
 .container-fields {
@@ -37,16 +42,19 @@ input {
   border: none;
   border: 1px solid yellow;
   border-radius: 20px;
+  color: brown;
 }
 
 input:focus {
   background-color: rgb(228, 228, 150);
-  color: yellowgreen;
 }
 
 input:hover {
   background-color: rgb(241, 241, 119);
-  color: yellowgreen;
+}
+
+input::placeholder {
+  color: brown;
 }
 .calculate {
   width: 100px;
